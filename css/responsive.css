@@ -56,8 +56,10 @@
 	.service-box {
 		padding:30px 20px;
 	}
-	.testimonial-content {
+	.testimonial-content p {
 		font-size:18px;
+		align-content: flex-start;
+		text-align: left;
 	}
 	.owl-carousel .owl-item .client-img img {
 		max-width:80px;
