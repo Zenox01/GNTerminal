@@ -1,3 +1,7 @@
+.team-content h4{
+margin-bottom: 0px;
+}
+
 .loader {
 position: absolute;
   border-radius: 50%;
@@ -134,7 +138,21 @@ z-index:99;
   font-size: 1.44rem;
   font-weight: normal;
 }
+.tl-board {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
 
+  border-bottom: 2px solid #d7131b;
+}
+.tl-board p {
+  font-family: 'Pathway Gothic One',Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 1.728rem;
+  line-height: 0;
+}
 .tl-year {
   position: absolute;
   top: 20%;
@@ -159,6 +177,7 @@ z-index:99;
   height: 100%;
   top: 0;
   left: 0;
+  /* background-image: url("images/profile-01.JPG"); */
   /* background-size: cover; */
   background-position: center center;
   -webkit-transition: -webkit-filter 0.5s ease;
